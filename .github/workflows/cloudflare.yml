@@ -1,6 +1,9 @@
 name: cloudflare-pages
 
 on:
+# UNCOMMENT THIS FOR PRS. COMMENTED SO THE FLOW DOESN'T RUN IN MY FORK
+#  schedule:
+#    - cron: '15,45 * * * *'
   push:
     branches:
       - main
